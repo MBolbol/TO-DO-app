@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="to_do_root_menu"
+        name="TO_Do"
+    />
+
+    <menuitem
+        id="all_task_menu"
+        name="All Tasks"
+        parent = "to_do_root_menu"
+    /> 
+    <menuitem
+        id="users_menu"
+        name="Users"
+        parent = "to_do_root_menu"
+    />
+
+</odoo>
